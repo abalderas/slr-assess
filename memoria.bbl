@@ -21,4 +21,18 @@ Julia Gonzalez and Wagenaar Robert.
   Project - Phase 1}.
 \newblock University of Deusto, 2003.
 
+\bibitem{Kitchenham:2010}
+Barbara Kitchenham, Rialette Pretorius, David Budgen, O.~Pearl~Brereton, Mark
+  Turner, Mahmood Niazi, and Stephen Linkman.
+\newblock Systematic literature reviews in software engineering - a tertiary
+  study.
+\newblock {\em Inf. Softw. Technol.}, 52(8):792--805, August 2010.
+
+\bibitem{Petersen:2008}
+Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson.
+\newblock Systematic mapping studies in software engineering.
+\newblock In {\em Proceedings of the 12th International Conference on
+  Evaluation and Assessment in Software Engineering}, EASE'08, pages 68--77,
+  2008.
+
 \end{thebibliography}
