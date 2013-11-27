@@ -1,29 +1,24 @@
 \begin{thebibliography}{1}
 
-\bibitem{website:doxygen}
-{Dimitri Van Heesch}.
-\newblock {Pagina oficial de Doxygen}.
-\newblock \url{http://www.doxygen.org}.
+\bibitem{Chebil:2012}
+H.~Chebil, J.~Girardot, and C.~Courtin.
+\newblock An ontology-based approach for sharing and analyzing learning trace
+  corpora.
+\newblock In {\em Proceedings - IEEE 6th International Conference on Semantic
+  Computing, ICSC 2012}, pages 101--108, 2012.
 
-\bibitem{pdf:make}
-{Gerardo Aburruzaga García}.
-\newblock {Make. Un programa para controlar la recompilación}.
-\newblock \url{http://www.uca.es/softwarelibre/publicaciones/make.pdf}.
+\bibitem{Florian:2011}
+B.~Florian, C.~Glahn, H.~Drachsler, M.~Specht, and R.~Fabregat~Gesa.
+\newblock {\em Activity-based learner-models for learner monitoring and
+  recommendations in moodle}, volume 6964 LNCS of {\em Lecture Notes in
+  Computer Science (including subseries Lecture Notes in Artificial
+  Intelligence and Lecture Notes in Bioinformatics)}.
+\newblock Springer Berlin Heidelberg, 2011.
 
-\bibitem{pdf:auctex}
-Joaquín~Ataz López.
-\newblock {Creación de ficheros \LaTeX{} con GNU Emacs}.
-\newblock
-  \url{ftp://ftp.dante.de/tex-archive/info/spanish/guia-atx/guia-atx.pdf}.
-
-\bibitem{website:latex-wikibooks}
-Wikibooks.
-\newblock {The Book of LaTeX}.
-\newblock \url{http://en.wikibooks.org/wiki/LaTeX}.
-
-\bibitem{mitt04}
-Frank~Mittelbach y~Michel~Goossens.
-\newblock {\em The LaTeX Companion}.
-\newblock Addison-Wesley, 2004.
+\bibitem{Tuning:2003}
+Julia Gonzalez and Wagenaar Robert.
+\newblock {\em Tuning Educational Structures in Europe - Final Report - Pilot
+  Project - Phase 1}.
+\newblock University of Deusto, 2003.
 
 \end{thebibliography}
