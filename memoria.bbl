@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Chebil:2012}
 H.~Chebil, J.~Girardot, and C.~Courtin.
@@ -21,6 +21,17 @@ Julia Gonzalez and Wagenaar Robert.
   Project - Phase 1}.
 \newblock University of Deusto, 2003.
 
+\bibitem{Hevner:2004}
+Alan~R. Hevner, Salvatore~T. March, Jinsoo Park, and Sudha Ram.
+\newblock Design science in information systems research.
+\newblock {\em MIS Q.}, 28(1):75--105, March 2004.
+
+\bibitem{Johnson:2013}
+D.H. Johnson.
+\newblock Teaching a ``mooc:`` experiences from the front line.
+\newblock In {\em Digital Signal Processing and Signal Processing Education
+  Meeting (DSP/SPE), 2013 IEEE}, pages 268--272, 2013.
+
 \bibitem{Kitchenham:2010}
 Barbara Kitchenham, Rialette Pretorius, David Budgen, O.~Pearl~Brereton, Mark
   Turner, Mahmood Niazi, and Stephen Linkman.
@@ -28,11 +39,37 @@ Barbara Kitchenham, Rialette Pretorius, David Budgen, O.~Pearl~Brereton, Mark
   study.
 \newblock {\em Inf. Softw. Technol.}, 52(8):792--805, August 2010.
 
+\bibitem{Munkhchimeg:2013}
+B.~Munkhchimeg and S.~Baigaltugs.
+\newblock Control possibility of students' learning process through using
+  learning management system.
+\newblock In {\em Strategic Technology (IFOST), 2013 8th International Forum
+  on}, volume~2, pages 395--399, 2013.
+
 \bibitem{Petersen:2008}
 Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson.
 \newblock Systematic mapping studies in software engineering.
 \newblock In {\em Proceedings of the 12th International Conference on
   Evaluation and Assessment in Software Engineering}, EASE'08, pages 68--77,
   2008.
+
+\bibitem{Wieringa:2005}
+Roel Wieringa, Neil Maiden, Nancy Mead, and Colette Rolland.
+\newblock Requirements engineering paper classification and evaluation
+  criteria: A proposal and a discussion.
+\newblock {\em Requir. Eng.}, 11(1):102--107, December 2005.
+
+\bibitem{Wenjun:2008}
+Wenjun Wu, M.E. Papka, and R.~Stevens.
+\newblock Toward an opensocial life science gateway.
+\newblock In {\em Grid Computing Environments Workshop, 2008. GCE '08}, pages
+  1--6, 2008.
+
+\bibitem{Zafra:2011}
+A.~Zafra, E.~Gibaja, M.~Luque, and S.~Ventura.
+\newblock An evaluation of the effectiveness of e-learning system as support
+  for traditional classes.
+\newblock In {\em Next Generation Web Services Practices (NWeSP), 2011 7th
+  International Conference on}, pages 431--435, 2011.
 
 \end{thebibliography}

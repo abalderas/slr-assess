@@ -1,21 +1,105 @@
-% -*-cap1.tex-*-
-% Este fichero es parte de la plantilla LaTeX para
-% la realización de Proyectos Final de Carrera, protejido
-% bajo los términos de la licencia GFDL.
-% Para más información, la licencia completa viene incluida en el
-% fichero fdl-1.3.tex
-
-% Copyright (C) 2009 Pablo Recio Quijano 
-
-%\section{Introducción}
+% -*-cap2_metodologia.tex-*-
 
 Este estudio sistemático se basa en las directrices publicadas en la metodología propuesta por Kitchenham \cite{Kitchenham:2010}. Esta metodología describe cómo se debe planificar, ejecutar y presentar los resultados de una revisión de la literatura en la ingeniería de software. Para este trabajo se ha utilizado la propuesta de Petersen \cite{Petersen:2008}.
 
 \section{Justificación}
-El motivo de este trabajo, tal como se describió en la introducción, es la localización de trabajos relacionados con la extracción de información de los registros de interacción de los LMSs.
+El motivo de este trabajo, tal como se describió en la introducción, es la localización de trabajos relacionados con la tecnología para la mejora del aprendizaje (TEL) cuyo fin sea la evaluación de competencias de manera automática. El contexto de esta investigación viene marcado por la problemática del ``Open Data``. En la era de la Web 2.0, dispositivos como los gadgets de iGoogle se están convirtiendo cada vez más populares para la integración y personalización de contenidos Web de diferentes fuentes. Estas nuevas tecnologías de la Web se pueden aprovechar como portales de ciencia en términos de interfaz de usuario dinámica, que impulse la implementación de pasarelas con fines de educación avanzada, y así convirtiendo los datos en accesibles y reutilizables \cite{Wenjun:2008}.
+
+Los datos dentro de sistemas de tipo LMS o VLE, quedan registrados para el uso de estos sistemas, almacenando información de estudiantes, profesores, cursos, tareas, trabajos, etc., y relacionando y configurando todos estos elementos para ofrecer al usuario una experiencia de curso virtual. Haciendo todos estos datos almacenados accesibles, siguiendo la filosofía de ``Open Data``, se podría sacar partido a los mismos con fines científicos. Y tal como se comentó en la introducción, para que esta evaluación de competencias sea escalable y más aún cuando el número de alumnos es importante, no queda otra alternativa que hacerlo de manera automatizada.
+
+% Añadir despues de con fines científicos \cite{PENDIENTE:CITA:REGISTROS:ALMACENADOS:LMS}
 
 \section{Preguntas de investigación}
 
+En este punto, hemos de plantearnos cuáles son las cuestiones que necesitamos resolver para llevar a cabo nuestra investigación. Necesitamos saber en qué punto se haya la comunidad científica en lo que se refieres al uso de los registros de los entornos de aprendizaje para evaluar las competencias genéricas. Para ello planteamos la primera pregunta: \emph{¿Cuáles son las competencias que se han evaluado de forma automática o asistida por ordenador a partir del uso de los LMS?}
+
+Además, necesitamos saber de qué forma lo hace, qué métodos y técnicas se utilizan para este fin. Para eso se plantean las preguntas segunda (\emph{¿Qué métodos y técnicas se utilizan para evaluar competencias mediante el uso de un LMS?})y tercera (\emph{¿Con qué técnicas se pueden obtener evidencias (numéricas) objetivas del desarrollo de las siguientes competencias en un LMS?}).
+
+Finalmente se necesita saber si los resultados que se obtengan de los registros de interacción de un sistema LMS realmente refleja el desempeño o no de los estudiantes en qué competencia, planteádose por tanto la cuarta pregunta: \emph{¿Los resultados que se obtendrían de la evaluación de competencias genéricas de los alumnos mediante el uso de los registros de actividad de los LMS son indicadores fiables del desempeño de dichas competencias?}.
+
+\bigskip
+Preguntas de investigación:
+\begin{enumerate}
+\item ¿Cuáles son las competencias que se han evaluado de forma automática o asistida por ordenador a partir del uso de los LMS?
+\item ¿Qué métodos y técnicas se utilizan para evaluar competencias mediante el uso de un LMS?
+\item ¿Con qué técnicas se pueden obtener evidencias (numéricas) objetivas del desarrollo de las siguientes competencias en un LMS?
+\item ¿Los resultados que se obtendrían de la evaluación de competencias genéricas de los alumnos mediante el uso de los registros de actividad de los LMS son indicadores fiables del desempeño de dichas competencias?
+\end{enumerate}
+
 \section{Protocolo de revisión}
 
+La definición del protocolo de revisión requiere la realización de una serie de acciones para obtener la bibliografía de nuestro mapeado. Comenzaremos indicando los motores de búsqueda que vamos a utilizar, qué términos de búsqueda utilizaremos en dichos motores y las herramientas de soporte a la revisión. Además se mostrarán qué criterios de inclusión de la bibliografía se siguen y el procedimiento de selección.
+% Incluir algo de 'Esquema para la extracción de datos'??
+
+\subsection{Motores de búsqueda}
+Una vez que las preguntas de la investigación se han establecido, hay que identificar con precisión la estrategia de búsqueda a seguir. En nuestro procedimiento, para encontrar la bibliografía, se realizarán consultas en las siguientes bibliotecas digitales:
+\begin{itemize}
+\item Wiley Online Library
+\item World Scientific Net
+\item Springer
+\item ACM Digital Library
+\item IEEE Digital Library (Xplore)
+\item Scopus
+\end{itemize}
+
+\subsection{Términos de búsqueda}
+\label{sec:TerminosBusqueda}
+Existen muchos términos que pueden utilizarse para referirse a la evaluación de competencias genéricas de manera automatizada o asistida. Por la naturaleza de nuestro trabajo, debemos contemplar siempre en los términos de búsqueda los términos ``assessment`` y ``generic skills`` o ``generic competences``. Además se añaden términos como  ``E-Learning``, ``computer-assisted`` o ``mobile learning``. Sin embargo, incluir términos de este tipo reducen drásticamente el número de resultados obtenidos en la búsqueda, no llegando a obtenerse bibliografía más significativa que si no se incluyen. Por tanto, a tenor de las pruebas se decide eliminar de la búsqueda ese tipo de términos. Por otro lado, sí se incluyen acrónimos de diferentes relacionados con las TEL, como son: ``TEL``, ``LMS``, ``ICT`` (Information and communications technology) , ``CBI`` (Content-Based Instruction). Y se descartan de la búsqueda términos como ``ICE`` (Integrated Collaboration Environment) y ``CSCL`` (Computer Supported Collaborative Learning). La combinación de los términos de búsqueda empleados en la investigación, así como a los motores de búsqueda que fueron aplicados cada una pueden comprobarse en la tabla \ref{tab:ResumenBusqueda}.
+
+\begin{table}[H]
+  \begin{center}
+  \begin{tabular}{| m{3.5cm} | m{6cm} | m{3cm} | c |}
+    \hline
+    SOURCE & SEARCH TERMS & SEARCH SCOPE & RESULTS\\
+    \hline
+    \hline
+    Wiley Online Library & assessment AND ``generic competences`` OR ``generic skills`` AND (TEL OR ICT OR CBI) & in All Fields & 140 \\
+    \hline
+    World Scientific Net & ``generic competences`` OR ``generic skills`` AND assessment & Anywhere in article & 20\\
+    \hline
+    Springer & (``generic skills`` OR ``generic competences``) AND  students AND (TEL OR CBI OR ICT) & All fields (Including full text) & 140\\
+    \hline
+    ACM Digital Library & (assessment and ``generic skills``) and (TEL or LMS or ICT or CBI) & Any field (title, abstract, review) & 57\\
+    \hline
+    ACM Digital Library & (assessment and ``generic competences``) and (TEL or LMS or ICT or CBI) & Any field (title, abstract, review) & 15\\
+    \hline
+    IEEE Digital Library (Xplore) & (((TEL or LMS or ICT or CBI) AND (``generic skills`` OR ``generic competences``)) AND assessment) & Full text and metadata & 48\\
+    \hline
+    Scopus & (((TEL or LMS or ICT or CBI) AND (``generic skills`` OR ``generic competences``)) AND assessment) & All fields (Including full text) & 47\\
+    \hline
+  \end{tabular}
+\end{center}
+\caption{Resumen de búsqueda de bibliografía}
+\label{tab:ResumenBusqueda}
+\end{table} 
+
+% Incluir tabla con resultados descartados (Supongo que en anexo).
+
+\subsection{Criterios de selección}
+Para determinar si un trabajo debía formar parte de nuestra selección de estudios primarios se leyó tanto el título, como el resumen y las palabras clave. En ocasiones, esto no es suficiente, siendo necesario complementar la lectura anterior con una somera la lectura del artículo completo y más detallada de la introducción y las conclusiones.
+Nuestra búsqueda se centra en la localización de los trabajos en relación con los términos definidos en la sección \ref{sec:TerminosBusqueda}. Por lo tanto, se realizó la proyección de los trabajos seleccionados utilizando los siguientes criterios de exclusión:
+\begin{itemize}
+\item Off Topic: trabajo no relacionado directamente con nuestra investigación. Son trabajos, que aún satisfaciendo los criterios de búsqueda porque de alguna forma se mencionan en el texto, después su contribución no está relacionada con la evaluación asistida de competencias genéricas.
+\item Unsupported Language: Trabajo escrito en un lenguaje diferente al inglés o español. La mayoría de los textos son en inglés, por lo que este criterio de descarte apenas es utilizado.
+%\item Out Scope: 
+\item Duplicated: Trabajos cuya contribución principal está recogida en otros trabajos ya incluidos. 
+\item Unread: Trabajo que no ha podido ser leido. Son textos que no han sido leídos al no estar disponible para su lectura en las bibliotecas digitales a las que tenemos acceso desde la Universidad. Así mismo, aunque algún artículo ha podido ser encontrado gracias a Google Scholar o a la generosidad de sus autores, alguno ha quedado pendiente de lectura.
+\end{itemize}
+
+\subsection{Esquema para la extracción de datos}
+
+Para la extracción de la información dividiremos los trabajos según el tipo de investigación que realizan.
+
+\subsubsection{Tipo de investigación}
+Según los autores existen diferentes enfoques para la investigación. Algunos de estos sistemas de clasificación son los propuestos por Wieringa \cite{Wieringa:2005} y Hevner \cite{Hevner:2004}. Usamos el primero, ya que es el recomendado en el proceso de mapeo sistemático descrito por Petersen \cite{Petersen:2008}.
+\begin{itemize}
+\item Solución propuesta: se propone una solución para un problema; la solución puede ser innovadora o una extensión significativa de una técnica existente . Los posibles beneficios y la aplicabilidad de la solución se muestran por un pequeño ejemplo o una buena línea de argumentación.
+\item Investigación Validación: las técnicas investigados son nuevas y todavía no se han aplicado en la práctica. Estas técnicas pueden ser por ejemplo los experimentos, es decir, el trabajo realizado en el laboratorio.
+\item Evaluación de la Investigación:  las técnicas se aplican en la práctica y se lleva a cabo una evaluación de la técnica. Se muestra cómo se implementa la técnica en la práctica (implementación de la solución) y cuáles son las consecuencias de la aplicación en términos de ventajas y desventajas (evaluación de implementación).
+\item Artículos de Experiencia: trabajos que explican qué y cómo algo se ha llevado a cabo en la práctica. Basado en la experiencia personal del autor.
+\item Artículos de opinión: estos trabajos expresan la opinión personal de alguien acerca de si una determinada técnica es buena o mala, o cómo se deben realizar las cosas. No se basan en metodologías de trabajo y de investigación relacionados.
+\item Trabajos filosóficos: estos trabajos esbozan una nueva forma de ver las cosas existentes, estructurando el campo en forma de una taxonomía o un marco conceptual.
+\end{itemize}
+
+% Conforme redacte el documento quizás haya que completar por aquí
 
