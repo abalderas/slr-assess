@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.11.20)  29 NOV 2013 20:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.11.20)  30 NOV 2013 13:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -972,7 +972,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros (./portada.tex
-<./imagenes/logo_uca.png, id=54, 468.75125pt x 602.25pt>
+<./imagenes/logo_uca.png, id=58, 468.75125pt x 602.25pt>
 File: ./imagenes/logo_uca.png Graphic file (type png)
 
 <use ./imagenes/logo_uca.png>
@@ -1076,58 +1076,109 @@ been already used, duplicate ignored
                    \relax 
 l.48 
       [4]
-Underfull \hbox (badness 1337) in paragraph at lines 58--58
-[]|\T1/ptm/m/n/10.95 ``generic com-pe-ten-ces`` OR ``ge-ne-ric
- []
-
-
-Underfull \hbox (badness 1275) in paragraph at lines 58--58
+Underfull \hbox (badness 1275) in paragraph at lines 58--59
 []|\T1/ptm/m/n/10.95 Anywhere in ar-ti-
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 60--60
+Underfull \hbox (badness 5331) in paragraph at lines 60--61
 []|\T1/ptm/m/n/10.95 All fields (In-clu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 []|\T1/ptm/m/n/10.95 Any field (title,
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 64--64
-[]|\T1/ptm/m/n/10.95 (assessment and ``ge-ne-ric com-pe-ten-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 []|\T1/ptm/m/n/10.95 Any field (title,
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
 []|\T1/ptm/m/n/10.95 IEEE Di-gi-tal Li-brary
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 68--68
+Underfull \hbox (badness 5331) in paragraph at lines 68--69
 []|\T1/ptm/m/n/10.95 All fields (In-clu-
  []
 
 [5]) [6]
 Cap\'{\i }tulo 3.
-(./cap3_resultados.tex) [7
+(./cap3_resultados.tex
+Underfull \hbox (badness 1337) in paragraph at lines 26--26
+[]|\T1/ptm/m/n/10.95 ``generic com-pe-ten-ces`` OR ``ge-ne-ric
+ []
 
-] [8
 
-]
+Underfull \hbox (badness 1275) in paragraph at lines 26--26
+[]|\T1/ptm/m/n/10.95 Anywhere in ar-ti-
+ []
+
+
+Underfull \hbox (badness 5331) in paragraph at lines 28--28
+[]|\T1/ptm/m/n/10.95 All fields (In-clu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/ptm/m/n/10.95 Any field (title,
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 32--32
+[]|\T1/ptm/m/n/10.95 (assessment and ``ge-ne-ric com-pe-ten-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]|\T1/ptm/m/n/10.95 Any field (title,
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 34--34
+[]|\T1/ptm/m/n/10.95 IEEE Di-gi-tal Li-brary
+ []
+
+
+Underfull \hbox (badness 5331) in paragraph at lines 36--36
+[]|\T1/ptm/m/n/10.95 All fields (In-clu-
+ []
+
+[7
+
+] <./imagenes/cap3_pub_anuales.png, id=198, 451.6875pt x 321.2pt>
+File: ./imagenes/cap3_pub_anuales.png Graphic file (type png)
+
+<use ./imagenes/cap3_pub_anuales.png>
+Package pdftex.def Info: ./imagenes/cap3_pub_anuales.png used on input line 133
+.
+(pdftex.def)             Requested size: 361.35048pt x 256.96034pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+<./imagenes/cap3_pub_forum.png, id=204, 451.6875pt x 200.75pt>
+File: ./imagenes/cap3_pub_forum.png Graphic file (type png)
+
+<use ./imagenes/cap3_pub_forum.png>
+Package pdftex.def Info: ./imagenes/cap3_pub_forum.png used on input line 160.
+(pdftex.def)             Requested size: 361.35048pt x 160.6002pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./imagenes/cap3_pub_anuales.png (PNG copy)> <./imagenes/cap3_pub_forum.png
+ (PNG copy)>] [10]
 Cap\'{\i }tulo 4.
-(./cap4_conclusiones.tex) [9] [10
+(./cap4_conclusiones.tex) [11
+
+] [12
 
 ] (./memoria.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
- [11
+ [13
 
 
 ]
@@ -1138,26 +1189,33 @@ LaTeX Info: Redefining \% on input line 21.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
-Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: EC13C4DA72DE1CCEFF7D7E177ECD0546;785.
+
+
+Package rerunfilecheck Warning: File `memoria.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `memoria.out':
+(rerunfilecheck)             Before: E7567D5040623D8B43F2B88FCFAFF21A;863
+(rerunfilecheck)             After:  714B23BCA27D7A8925F6E237B1FDBC83;1093.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
  ) 
 Here is how much of TeX's memory you used:
- 18327 strings out of 494997
- 308246 string characters out of 3180091
- 397971 words of memory out of 3000000
- 21086 multiletter control sequences out of 15000+200000
+ 18359 strings out of 494997
+ 308936 string characters out of 3180091
+ 397409 words of memory out of 3000000
+ 21103 multiletter control sequences out of 15000+200000
  47037 words of font info for 58 fonts, out of 3000000 for 9000
  40 hyphenation exceptions out of 8191
- 63i,11n,57p,1664b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,11n,57p,1664b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmri8a.pfb>
-Output written on memoria.pdf (21 pages, 101084 bytes).
+Output written on memoria.pdf (23 pages, 121067 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
- 49 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
 
