@@ -13,8 +13,6 @@
 \contentsline {subsection}{\numberline {2.3.5}Visualizaci\IeC {\'o}n y an\IeC {\'a}lisis de los datos}{7}{subsection.2.3.5}
 \contentsline {chapter}{\numberline {3}Resultados}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Localizaci\IeC {\'o}n de la literatura}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Selecci\IeC {\'o}n de trabajos}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}Extracci\IeC {\'o}n de los datos}{10}{section.3.3}
-\contentsline {section}{\numberline {3.4}An\IeC {\'a}lisis y s\IeC {\'\i }ntesis de los datos}{12}{section.3.4}
-\contentsline {chapter}{\numberline {4}Conclusiones}{13}{chapter.4}
-\contentsline {chapter}{Bibliografia y referencias}{15}{chapter.4}
+\contentsline {section}{\numberline {3.2}Extraci\IeC {\'o}n de datos}{12}{section.3.2}
+\contentsline {chapter}{\numberline {4}Conclusiones}{15}{chapter.4}
+\contentsline {chapter}{Bibliografia y referencias}{17}{chapter.4}
