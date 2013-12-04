@@ -14,5 +14,11 @@
 \contentsline {chapter}{\numberline {3}Resultados}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Localizaci\IeC {\'o}n de la literatura}{9}{section.3.1}
 \contentsline {section}{\numberline {3.2}Extraci\IeC {\'o}n de datos}{12}{section.3.2}
-\contentsline {chapter}{\numberline {4}Conclusiones}{15}{chapter.4}
-\contentsline {chapter}{Bibliografia y referencias}{17}{chapter.4}
+\contentsline {section}{\numberline {3.3}Esquema de clasificaci\IeC {\'o}n}{13}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Metodolog\IeC {\'\i }as que delegan en los alumnos}{13}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Videojuegos}{14}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}T\IeC {\'e}cnicas}{14}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Necesidades}{14}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Revisiones}{14}{subsection.3.3.5}
+\contentsline {chapter}{\numberline {4}Conclusiones}{17}{chapter.4}
+\contentsline {chapter}{Bibliografia y referencias}{19}{chapter.4}
