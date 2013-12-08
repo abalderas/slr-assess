@@ -17,10 +17,8 @@
 \contentsline {section}{\numberline {3.2}Esquema de clasificaci\IeC {\'o}n y mapeo del estudio}{13}{section.3.2}
 \contentsline {section}{\numberline {3.3}Esquema de clasificaci\IeC {\'o}n}{14}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Course\IeC {\textquoteright }s Learning Outcomes (CLO) and rubrics}{14}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}eAssessment}{15}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}peer and self eAssessment}{15}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Game-Based Learning (GBL)}{15}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Social Network}{15}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Review}{15}{subsection.3.3.6}
+\contentsline {subsection}{\numberline {3.3.2}Peer and self eAssessment}{15}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Game-Based Learning (GBL)}{16}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}eAssessment and reviews}{16}{subsection.3.3.4}
 \contentsline {chapter}{\numberline {4}Conclusiones}{17}{chapter.4}
 \contentsline {chapter}{Bibliografia y referencias}{19}{chapter.4}
