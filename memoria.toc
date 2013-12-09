@@ -15,10 +15,10 @@
 \contentsline {chapter}{\numberline {3}Resultados}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Localizaci\IeC {\'o}n de la literatura}{9}{section.3.1}
 \contentsline {section}{\numberline {3.2}Esquema de clasificaci\IeC {\'o}n y mapeo del estudio}{13}{section.3.2}
-\contentsline {section}{\numberline {3.3}Esquema de clasificaci\IeC {\'o}n}{14}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Course\IeC {\textquoteright }s Learning Outcomes (CLO) and rubrics}{14}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Peer and self eAssessment}{15}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Game-Based Learning (GBL)}{16}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}eAssessment and reviews}{16}{subsection.3.3.4}
-\contentsline {chapter}{\numberline {4}Conclusiones}{21}{chapter.4}
-\contentsline {chapter}{Bibliografia y referencias}{23}{chapter.4}
+\contentsline {section}{\numberline {3.3}Esquema de clasificaci\IeC {\'o}n}{16}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Course\IeC {\textquoteright }s Learning Outcomes (CLO) and rubrics}{16}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Peer and self eAssessment}{16}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Game-Based Learning (GBL)}{17}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}eAssessment and reviews}{18}{subsection.3.3.4}
+\contentsline {chapter}{\numberline {4}Conclusiones}{23}{chapter.4}
+\contentsline {chapter}{Bibliografia y referencias}{25}{chapter.4}
