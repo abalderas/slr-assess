@@ -14,21 +14,20 @@
 \contentsline {subsection}{\numberline {2.3.5}Visualizaci\IeC {\'o}n y an\IeC {\'a}lisis de los datos}{8}{subsection.2.3.5}
 \contentsline {chapter}{\numberline {3}Resultados}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Localizaci\IeC {\'o}n de la literatura}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Extracci\IeC {\'o}n de los datos}{11}{section.3.2}
+\contentsline {section}{\numberline {3.2}Extracci\IeC {\'o}n de los datos}{10}{section.3.2}
 \contentsline {section}{\numberline {3.3}Categorizaci\IeC {\'o}n del estudio}{13}{section.3.3}
-\contentsline {section}{\numberline {3.4}Esquema de clasificaci\IeC {\'o}n}{17}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Course\IeC {\textquoteright }s Learning Outcomes (CLO) and rubrics}{17}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Peer and self eAssessment}{17}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Game-Based Learning (GBL)}{18}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}eAssessment and reviews}{19}{subsection.3.4.4}
+\contentsline {section}{\numberline {3.4}Esquema de clasificaci\IeC {\'o}n}{16}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}CLO and rubrics}{16}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Peer and self eAssessment}{16}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}GBL}{17}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}eAssessment and reviews}{18}{subsection.3.4.4}
 \contentsline {chapter}{\numberline {4}Respuestas}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}\IeC {\textquestiondown }Qu\IeC {\'e} competencias se han evaluado de forma autom\IeC {\'a}tica o asistida por ordenador a partir del uso de los entornos virtuales?}{26}{section.4.1}
-\contentsline {section}{\numberline {4.2}\IeC {\textquestiondown }Qu\IeC {\'e} herramientas o metodolog\IeC {\'\i }as se utilizan para evaluar competencias mediante el uso de los entornos virtuales?}{26}{section.4.2}
-\contentsline {section}{\numberline {4.3}\IeC {\textquestiondown }Con qu\IeC {\'e} t\IeC {\'e}cnicas se pueden obtener evidencias objetivas del desarrollo de las siguientes competencias en un entorno virtual?}{27}{section.4.3}
-\contentsline {section}{\numberline {4.4}\IeC {\textquestiondown }Son utilizados los registros de actividad de los entornos virtuales para la evaluaci\IeC {\'o}n?}{28}{section.4.4}
-\contentsline {chapter}{\numberline {5}Trabajo en curso y futuro}{31}{chapter.5}
-\contentsline {section}{\numberline {5.1}EvalCourse}{31}{section.5.1}
-\contentsline {section}{\numberline {5.2}Experiencia piloto}{32}{section.5.2}
-\contentsline {section}{\numberline {5.3}Trabajo futuro}{33}{section.5.3}
-\contentsline {chapter}{\numberline {6}Conclusiones}{35}{chapter.6}
-\contentsline {chapter}{Bibliografia y referencias}{37}{chapter.6}
+\contentsline {chapter}{\numberline {5}Trabajo en curso y futuro}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}EvalCourse}{27}{section.5.1}
+\contentsline {section}{\numberline {5.2}Experiencia piloto}{28}{section.5.2}
+\contentsline {section}{\numberline {5.3}Trabajo futuro}{29}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclusiones}{31}{chapter.6}
+\contentsline {chapter}{Bibliografia y referencias}{37}{chapter*.23}
+\contentsline {part}{I\hspace {1em}Ap\IeC {\'e}ndice}{39}{part.1}
+\contentsline {chapter}{GNU General Public License}{41}{appendix*.24}
+\contentsline {paragraph}{T}{41}{section*.25}

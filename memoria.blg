@@ -4,45 +4,45 @@ The top-level auxiliary file: memoria.aux
 The style file: plain.bst
 Database file #1: bibliografia.bib
 Warning--there's a number but no volume in Palomo-Duarte:2013
-You've used 55 entries,
+You've used 56 entries,
             2118 wiz_defined-function locations,
-            868 strings with 18073 characters,
-and the built_in function-call counts, 23187 in all, are:
-= -- 2261
-> -- 1219
-< -- 32
-+ -- 477
-- -- 419
-* -- 1692
-:= -- 3671
-add.period$ -- 177
-call.type$ -- 55
-change.case$ -- 362
+            874 strings with 18368 characters,
+and the built_in function-call counts, 23690 in all, are:
+= -- 2309
+> -- 1242
+< -- 33
++ -- 486
+- -- 427
+* -- 1724
+:= -- 3743
+add.period$ -- 180
+call.type$ -- 56
+change.case$ -- 369
 chr.to.int$ -- 0
-cite$ -- 56
-duplicate$ -- 894
-empty$ -- 1726
-format.name$ -- 419
-if$ -- 4987
+cite$ -- 57
+duplicate$ -- 917
+empty$ -- 1767
+format.name$ -- 427
+if$ -- 5103
 int.to.chr$ -- 0
-int.to.str$ -- 55
-missing$ -- 56
-newline$ -- 274
-num.names$ -- 118
-pop$ -- 421
+int.to.str$ -- 56
+missing$ -- 57
+newline$ -- 279
+num.names$ -- 120
+pop$ -- 431
 preamble$ -- 1
-purify$ -- 312
+purify$ -- 318
 quote$ -- 0
-skip$ -- 689
+skip$ -- 709
 stack$ -- 0
-substring$ -- 1383
-swap$ -- 300
-text.length$ -- 32
+substring$ -- 1416
+swap$ -- 311
+text.length$ -- 33
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 210
+type$ -- 214
 warning$ -- 1
-while$ -- 215
-width$ -- 57
-write$ -- 616
+while$ -- 219
+width$ -- 58
+write$ -- 627
 (There was 1 warning)
