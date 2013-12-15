@@ -1,10 +1,29 @@
 \section{EvalCourse}
-En este trabajo hemos buscado literatura que aborde la evaluación de competencias genéricas, y a ser posible, que lo hagan de manera automática utilizando la interacción de los estudiantes con el LMS. En línea con este trabajo, y a fin de abordar lo que será mi futura tesis doctoral, estamos trabajando en una herramienta que cumpla este propósito. Esta herramienta, cuyo prototipo ya ha sido presentado en varios congresos \cite{Balderas:2013,Balderas:2013a}, se llama EvalCourse. EvalCourse es un Lenguaje de Dominio Específico (DSL). Un DSL es un lenguaje de programación orientado a un problema específico y con una semántica orientada al dominio para el que se diseña. En nuestro caso, este dominio es la evaluación de indicadores de competencias de los estudiantes. El objetivo de EvalCourse es ayudar al docente en la evaluación del desempeño de los alumnos en las competencias que éstos deben desarrollar a lo largo del curso. Estos datos deberán servir al docente como indicadores del desarrollo de dichas competencias. La idea inicial con la que se ha desarrollado este proyecto, es que el DSL sea genérico y pueda ser utilizado con otros sistemas, no sólo de tipo LMS, sino también con sistemas que fomenten el trabajo colaborativo, como pueden ser los wikis. De hecho, MediaWiki es utilizado también en el ámbito de la docencia de la Universidad de Cádiz.
+En este trabajo hemos buscado literatura que aborde la evaluación de competencias genéricas, y a ser posible, que lo hagan de manera automática utilizando la interacción de los estudiantes con el LMS. En línea con este trabajo, y a fin de abordar lo que será mi futura tesis doctoral, estamos trabajando en una herramienta que cumpla este propósito. Esta herramienta, cuyo prototipo ya ha sido presentado en varios congresos \cite{Balderas:2013,Balderas:2013a}, se llama EvalCourse y su lógica viene descrita en la figura \ref{fig:EvalcourseLogica}. EvalCourse es un Lenguaje de Dominio Específico (DSL). Un DSL es un lenguaje de programación orientado a un problema específico y con una semántica orientada al dominio para el que se diseña. En nuestro caso, este dominio es la evaluación de indicadores de competencias de los estudiantes. Un ejemplo de funcionamiento puede verse en la figura \ref{fig:EvalCourseCodigo}. El objetivo de EvalCourse es ayudar al docente en la evaluación del desempeño de los alumnos en las competencias que éstos deben desarrollar a lo largo del curso. Estos datos deberán servir al docente como indicadores del desarrollo de dichas competencias. La idea inicial con la que se ha desarrollado este proyecto, es que el DSL sea genérico y pueda ser utilizado con otros sistemas, no sólo de tipo LMS, sino también con sistemas que fomenten el trabajo colaborativo, como pueden ser los wikis. De hecho, se ha desarrollado software para evaluar diversas competencias (tanto genéricas como específicas) mediante análisis de registro (StatMediaWiki) como entre pares o autoevaluaciones (AssessMediaWiki) \cite{Palomo-Duarte:2013}.
 
-\section{Proyectos en curso}
-Para el presente curso se solicitó un proyecto en la convocatoria de actuaciones avaladas para la mejora docente, formación del profesorado y disfusión de resultados, con el título \emph{Extracción de indicadores objetivos para evaluación del desarrollo de competencias genéricas a partir de registros de actividad del Campus Virtual}. La Unidad de Innovación Docente de la Universidad de Cádiz nos concedió dicha actuación y actualmente estamos trabajando en este proyecto.
 
-Este proyecto se engloba dentro del trabajo realizado dentro del grupo de investigación SPI-FM (TIC-195) por parte de Antonio Balderas al uso de las tecnologías en los entornos de aprendizaje. Se pretende desarrollar y aplicar EvalCourse, un DSL que permita a los docentes mediante el uso de una sintaxis sencilla obtener indicadores del desempeño de los estudiantes en diferentes competencias. Son varias las asignaturas de Grado en Ingeniería Informática que participan en este proyecto. Las tareas que comprende son:
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.3]{cap5_evalcourse_logica.png}
+  \end{center}
+  \caption{Esquema lógico de EvalCourse}
+  \label{fig:EvalcourseLogica}
+\end{figure}
+
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.6]{cap5_evalcourse_codigo.png}
+  \end{center}
+  \caption{Consulta realizada en EvalCourse para obtener la participación en foros}
+  \label{fig:EvalCourseCodigo}
+\end{figure}
+
+\section{Experiencia piloto}
+Durante el presente curso 2013/14 se está desarrollando un proyecto financiado por la Convocatoria de Actuaciones Avaladas para la Mejora Docente, Formación del Profesorado y Difusión de Resultados con fondos de la Consejería de Economía, Innovación, Ciencia y Empleo de la Junta de Andalucía, con el título \emph{Extracción de indicadores objetivos para evaluación del desarrollo de competencias genéricas a partir de registros de actividad del Campus Virtual}. La Unidad de Innovación Docente de la Universidad de Cádiz concedió dicha actuación con código \emph{AAA\_14\_009} y actualmente se está desarrollando. En ella participan 8 profesores de 6 asignaturas del Grado en Ingeniería Informática.
+
+Este proyecto se engloba dentro del trabajo realizado dentro del grupo de investigación SPI\&FM (TIC-195) por parte de Antonio Balderas al uso de las tecnologías en los entornos de aprendizaje. Se pretende desarrollar y aplicar EvalCourse, un DSL que permita a los docentes mediante el uso de una sintaxis sencilla obtener indicadores del desempeño de los estudiantes en diferentes competencias. Son varias las asignaturas de Grado en Ingeniería Informática que participan en este proyecto. Las tareas que comprende son:
 
 \begin{enumerate}
 \item Analizar los tipos de indicadores que se podrían obtener de la base de datos Moodle que sean de utilidad para los profesores, así como la manera de obtenerlos.
@@ -13,6 +32,7 @@ Este proyecto se engloba dentro del trabajo realizado dentro del grupo de invest
 \item Análisis de resultados de la experiencia, difusión del trabajo realizado, publicación de informes, correcciones menores en el sistema, etc. Se analizarán los resultados obtenidos y se darán a conocer el software y la experiencia en webs especializadas, redes sociales, etc. Igualmente se procederá a la correcta documentación del sistema en una web oficial para poder replicar la experiencia (incidiendo en cómo evitar los errores cometidos), así como pequeños desarrollos que corrijan deficiencias observadas y faciliten la reutilización del sistema.
 \end{enumerate}
 
+\section{Trabajo futuro} % Creada sección debido a comentario 89, pero hay que cambiar más. Esperar comentarios Juanma.
 Los objetivos del proyecto son los siguientes:
 \begin{enumerate}
 \item Realizar un análisis en profundidad de qué indicadores se pueden extraer del campus virtual basado en Moodle que realmente reflejen el desarrollo o no de una competencia por parte de los alumnos.

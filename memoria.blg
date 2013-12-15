@@ -3,44 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: memoria.aux
 The style file: plain.bst
 Database file #1: bibliografia.bib
-You've used 48 entries,
+Warning--there's a number but no volume in Palomo-Duarte:2013
+You've used 55 entries,
             2118 wiz_defined-function locations,
-            820 strings with 16238 characters,
-and the built_in function-call counts, 20149 in all, are:
-= -- 1959
-> -- 1044
-< -- 29
-+ -- 410
-- -- 357
-* -- 1460
-:= -- 3180
-add.period$ -- 155
-call.type$ -- 48
-change.case$ -- 309
+            868 strings with 18073 characters,
+and the built_in function-call counts, 23187 in all, are:
+= -- 2261
+> -- 1219
+< -- 32
++ -- 477
+- -- 419
+* -- 1692
+:= -- 3671
+add.period$ -- 177
+call.type$ -- 55
+change.case$ -- 362
 chr.to.int$ -- 0
-cite$ -- 48
-duplicate$ -- 791
-empty$ -- 1515
-format.name$ -- 357
-if$ -- 4348
+cite$ -- 56
+duplicate$ -- 894
+empty$ -- 1726
+format.name$ -- 419
+if$ -- 4987
 int.to.chr$ -- 0
-int.to.str$ -- 48
-missing$ -- 51
-newline$ -- 240
-num.names$ -- 104
-pop$ -- 370
+int.to.str$ -- 55
+missing$ -- 56
+newline$ -- 274
+num.names$ -- 118
+pop$ -- 421
 preamble$ -- 1
-purify$ -- 267
+purify$ -- 312
 quote$ -- 0
-skip$ -- 607
+skip$ -- 689
 stack$ -- 0
-substring$ -- 1201
-swap$ -- 269
-text.length$ -- 29
+substring$ -- 1383
+swap$ -- 300
+text.length$ -- 32
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 180
-warning$ -- 0
-while$ -- 185
-width$ -- 50
-write$ -- 537
+type$ -- 210
+warning$ -- 1
+while$ -- 215
+width$ -- 57
+write$ -- 616
+(There was 1 warning)

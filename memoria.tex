@@ -30,7 +30,11 @@
                              % completa, y solo modificar aquí si en
                              % un momento dado lo movemos
 
+
 \begin{document}
+
+
+
 
 % Renombramos las figuras y las tablas
 \renewcommand{\figurename}{Figura}
@@ -44,7 +48,16 @@
 
 \input{primerahoja.tex}
 \cleardoublepage
-\pagestyle{plain}
+
+
+
+\pagestyle{normal}
+
+
+%\pagestyle{myheadings}
+%\markright{Antonio Balderas\hfill On page styles\hfill}
+
+%\markboth{\hfill \thechapter \hfill Author's Name}{Author's Name \hfill Book's Title \hfill}
 
 \frontmatter % Introducción, índices ...
 
@@ -69,7 +82,7 @@
 \chapter{Respuestas}
 \input{cap4_discusion.tex}
 
-\chapter{Trabajo (presente y) futuro}
+\chapter{Trabajo en curso y futuro}
 \input{cap5_futuro.tex}
 
 \chapter{Conclusiones}

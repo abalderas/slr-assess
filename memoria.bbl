@@ -5,7 +5,7 @@ Fariza Achcaoucaou, Laura Guitart-Tarr\'{e}s, Paloma Miravitlles-Matamoros, Ana
   N\'{u}\~{n}ez Carballosa, Merc\'{e} Bernardo, and Andrea Bikfalvi.
 \newblock {Competence assessment in higher education: A dynamic approach}.
 \newblock {\em Human Factors and Ergonomics in Manufacturing \& Service
-  Industries}, pages n/a--n/a, June 2012.
+  Industries}, pages 1--14, June 2012.
 
 \bibitem{Anderson:2001}
 Lorin~W. Anderson, David~R. Krathwohl, Peter~W. Airasian, Kathleen~A.
@@ -17,19 +17,18 @@ Lorin~W. Anderson, David~R. Krathwohl, Peter~W. Airasian, Kathleen~A.
 
 \bibitem{Balderas:2013}
 A.~Balderas, I.~Ruiz-Rube, J.~M. Dodero, M.~Palomo-Duarte, and A.~Berns.
-\newblock {\em A generative computer language to customize online learning
-  assessments}, volume 8095 LNCS of {\em Lecture Notes in Computer Science
-  (including subseries Lecture Notes in Artificial Intelligence and Lecture
-  Notes in Bioinformatics)}.
-\newblock Springer Berlin Heidelberg, 2013.
+\newblock {A generative computer language to customize on-line learning
+  assessments}.
+\newblock In {\em Lecture Notes in Computer Science}, volume {8095 LNCS}, pages
+  591--592. Springer Berlin Heidelberg, 2013.
 
 \bibitem{Balderas:2013a}
 Antonio Balderas, Iv\'{a}n Ruiz-Rube, Manuel Palomo-Duarte, and Juan~M. Dodero.
-\newblock A generative computer language to customize online learning
-  assessments.
+\newblock {A Generative Computer Language to Customize Online Learning
+  Assessments}.
 \newblock In {\em Proceedings of the First International Conference on
-  Technological Ecosystem for Enhancing Multiculturality}, TEEM '13, pages
-  141--147, New York, NY, USA, 2013. ACM.
+  Technological Ecosystem for Enhancing Multiculturality}, {TEEM '13}, pages
+  141--147, New York, NY, USA, 2013. {ACM}.
 
 \bibitem{Bedek:2011}
 Michael Bedek, Sobah~Abbas Petersen, and Tuija Heikura.
@@ -37,12 +36,25 @@ Michael Bedek, Sobah~Abbas Petersen, and Tuija Heikura.
 \newblock In {\em 2011 IEEE 11th International Conference on Advanced Learning
   Technologies}, pages 277--281. IEEE, July 2011.
 
+\bibitem{Bellotti:2013}
+Francesco Bellotti, Bill Kapralos, Kiju Lee, Pablo Moreno-Ger, and Riccardo
+  Berta.
+\newblock Assessment in and of serious games: An overview.
+\newblock {\em Advances in Human-Computer Interaction - Special issue on User
+  Assessment in Serious Games and Technology-Enhanced}, 2013:1:1--1:1, January
+  2013.
+
 \bibitem{BenoCsap:2012}
 Nancy~Law {Benő Csap\'{o}, John Ainley, Randy E. Bennett, Thibaud Latour}.
 \newblock {Technological Issues for Computer-Based Assessment}.
 \newblock In Patrick Griffin, Barry McGaw, and Esther Care, editors, {\em
   Assessment and Teaching of 21st Century SkillsAssessment and Teaching of 21st
   Century Skills}, pages 143--230. Springer Netherlands, 2012.
+
+\bibitem{Berns:2013}
+Anke Berns, Antonio Gonzalez-Pardo, and David Camacho.
+\newblock Game-like language learning in 3-d virtual environments.
+\newblock {\em Computers \& Education}, 60(1):210--220, January 2013.
 
 \bibitem{Borrajo:2010}
 Fernando Borrajo, Yolanda Bueno, Isidro de~Pablo, Bego\~{n}a Santos, Fernando
@@ -70,6 +82,13 @@ Ricardo Colomo-Palacios, Cristina Casado-Lumbreras, Pedro Soto-Acosta,
   study}.
 \newblock {\em Computers in Human Behavior}, 29(2):456--461, March 2013.
 
+\bibitem{Dodero:2013}
+J.~M. Dodero, M.~Palomo-Duarte, I.~Ruiz-Rube, I.~Traverso, and J.~M. Mota.
+\newblock {ASCETA: Accesibilidad a servicios y contenidos educativos mediante
+  tecnologías del aprendizaje}.
+\newblock In {\em {XV Simposio Internacional de Tecnologías de la Información
+  y las Comunicaciones en la Educación}}, pages 116--120, 2013.
+
 \bibitem{Feldt:2009}
 Robert Feldt, Martin H\"{o}st, and Frank L\"{u}ders.
 \newblock Generic skills in software engineering master thesis projects:
@@ -80,7 +99,7 @@ Robert Feldt, Martin H\"{o}st, and Frank L\"{u}ders.
 \bibitem{Florian:2011}
 B.~Florian, C.~Glahn, H.~Drachsler, M.~Specht, and R.~Fabregat~Gesa.
 \newblock {\em Activity-based learner-models for learner monitoring and
-  recommendations in moodle}, volume 6964 LNCS of {\em Lecture Notes in
+  recommendations in moodle}, volume {6964 LNCS} of {\em Lecture Notes in
   Computer Science (including subseries Lecture Notes in Artificial
   Intelligence and Lecture Notes in Bioinformatics)}.
 \newblock Springer Berlin Heidelberg, 2011.
@@ -110,7 +129,7 @@ M.~Guenaga, S.~Arranz, I.~Rubio, E.~Aguilar, A.~{Ortiz de Guinea}, A.~Rayon,
 \bibitem{Hevner:2004}
 Alan~R. Hevner, Salvatore~T. March, Jinsoo Park, and Sudha Ram.
 \newblock Design science in information systems research.
-\newblock {\em MIS Q.}, 28(1):75--105, March 2004.
+\newblock {\em MIS Quarterly}, 28(1):75--105, March 2004.
 
 \bibitem{Johnson:2013}
 D.H. Johnson.
@@ -128,13 +147,14 @@ Barbara Kitchenham, Rialette Pretorius, David Budgen, O.~Pearl~Brereton, Mark
   Turner, Mahmood Niazi, and Stephen Linkman.
 \newblock Systematic literature reviews in software engineering - a tertiary
   study.
-\newblock {\em Inf. Softw. Technol.}, 52(8):792--805, August 2010.
+\newblock {\em Information and Software Technology}, 52(8):792--805, August
+  2010.
 
 \bibitem{Liao:2013}
 C.H. Liao, M.H. Yang, and B.C. Yang.
 \newblock {Developing a diagnosis system of work-related capabilities for
   students: A computer-assisted assessment}.
-\newblock {\em Journal of Computer Assisted Learning}, pages n/a--n/a, April
+\newblock {\em Journal of Computer Assisted Learning}, pages 530--546, April
   2013.
 
 \bibitem{Lim:2011}
@@ -142,6 +162,11 @@ Cher~Ping Lim, Eugenia Ng, Yiu~Chi Lai, and Eugenia~M.W. Ng.
 \newblock {Using wikis to develop student teachers' learning, teaching, and
   assessment capabilities}.
 \newblock {\em The Internet and Higher Education}, 14(1):15--26, 2011.
+
+\bibitem{Lugton:2012}
+Martin Lugton.
+\newblock {What is a MOOC? What are the different types of MOOC? xMOOCs and
+  cMOOCs}, 2012.
 
 \bibitem{Martin-Cuadrado:2013}
 A.M. Martin-Cuadrado, M.A. Lopez-Gonzalez, and A.~Garcia-Arce.
@@ -191,10 +216,16 @@ Azlinah Mohamed, Azrilah Aziz, Sohaimi Zakaria, and Mohd~Saidfudin Masodi.
 \bibitem{Mohamed:2008}
 Azlinah Mohamed, Azrilah~Abd Aziz, Abd~Rahman Ahlan, Sohaimi Zakaria, and
   Mohd~Saidfudin Masodi.
-\newblock Outcome based education performance measurement: a rasch-based
-  longitudinal assessment model to measure information management courses lo's.
+\newblock {Outcome based education performance measurement: a Rasch-based
+  longitudinal assessment model to measure information management courses
+  LO's}.
 \newblock {\em WSEAS Transactions on Information Science and Applications},
   5(3):292--299, 2008.
+
+\bibitem{Mor:2013}
+Yishay Mor and Tapio Koshinen.
+\newblock {MOOC y m\'{a}s all\'{a}}.
+\newblock {\em eLearning Papers}, 33:1--7, 2013.
 
 \bibitem{Munkhchimeg:2013}
 B.~Munkhchimeg and S.~Baigaltugs.
@@ -214,6 +245,23 @@ Acensi\'{o}n Palomares.
 \newblock {The educational model at university and the use of new methodologies
   for teaching, learning and assessment}.
 \newblock {\em Revista de Educaci\'{o}n}, 355(Mayo-Agosto 2011):591--604, 2011.
+
+\bibitem{Palomo-Duarte:2013}
+Manuel Palomo-Duarte, Juan~Manuel Dodero, Antonio García-Domínguez, Pablo
+  Neira-Ayuso, Noelia Sales-Montes, Inmaculada Medina-Bulo, Francisco
+  Palomo-Lozano, Carmen Castro-Cabrera, Emilio~J. Rodríguez-Posada, and
+  Antonio Balderas.
+\newblock Scalability of assessments of wiki-based learning experiences in
+  higher education.
+\newblock {\em Computers in Human Behavior}, (0):--, 2013.
+
+\bibitem{Palomo-Duarte:2012}
+Manuel Palomo-Duarte, Juan~Manuel Dodero, Jos{\'e}~Tom\'{a}s Tocino, Antonio
+  Garc\'{\i}a-Dom\'{\i}nguez, and Antonio Balderas.
+\newblock Competitive evaluation in a video game development course.
+\newblock In {\em Proceedings of the 17th ACM Annual Conference on Innovation
+  and Technology in Computer Science Education}, ITiCSE '12, pages 321--326,
+  New York, NY, USA, 2012. ACM.
 
 \bibitem{Petersen:2008}
 Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson.
@@ -252,7 +300,8 @@ Rozeha~A. Rashid, Razimah Abdullah, Azami Zaharim, Hamzah~Ahmad Ghulman, and
 
 \bibitem{Redecker:2013}
 Christine Redecker and Øystein Johannessen.
-\newblock Changing assessment — towards a new assessment paradigm using ict.
+\newblock {Changing Assessment — Towards a New Assessment Paradigm Using
+  ICT}.
 \newblock {\em European Journal of Education}, 48(1):79--96, 2013.
 
 \bibitem{Redecker:2012}
@@ -292,9 +341,8 @@ Andreja~Istenic Starcic.
 Andreja~Isteni\v{c} Star\v{c}i\v{c}.
 \newblock {Game-based learning in higher education and lifelong learning:
   bridging the gap between theory and practice}.
-\newblock {\em Game-based learning in higher education and lifelong learning:
-  bridging the gap between theory and practice}, pages 157--162, September
-  2008.
+\newblock {\em {Proceedings of the 8th WSEAS international conference on
+  Distance learning and web engineering}}, pages 157--162, September 2008.
 
 \bibitem{Terron-Lopez:2013}
 Mar\'{i}aJos\'{e} Terr\'{o}n-L\'{o}pez and Mar\'{i}aJos\'{e}
@@ -315,7 +363,7 @@ Manuel~Salas Velasco, Mar\'{\i}a~Teresa {S\'{a}nchez Mart\'{\i}nez}, and
 Roel Wieringa, Neil Maiden, Nancy Mead, and Colette Rolland.
 \newblock Requirements engineering paper classification and evaluation
   criteria: A proposal and a discussion.
-\newblock {\em Requir. Eng.}, 11(1):102--107, December 2005.
+\newblock {\em Requirements Engineering}, 11(1):102--107, December 2005.
 
 \bibitem{Wenjun:2008}
 Wenjun Wu, M.E. Papka, and R.~Stevens.
