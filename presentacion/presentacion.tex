@@ -1,0 +1,525 @@
+
+% Este documento LaTeX fue diseñado por profesores  del Departamento de Matemáticas 
+% de la Universidad de Antioqua (http://ciencias.udea.edu.co/). Usted puede modificarlo
+% y personalizarlo a su gusto bajo los términos de la licencia de documentación libre GNU.
+% http://es.wikipedia.org/w/index.php?title=Licencia_de_documentaci%C3%B3n_libre_de_GNU&oldid=15717448
+
+%\documentclass[serif,9pt]{beamer}
+%\setbeamertemplate{navigation symbols}{}
+
+%\setbeamercolor{frametitle}{fg=black,bg=white}
+%\setbeamercolor{title}{fg=black,bg=yellow!85!orange}
+%\usetheme{AnnArbor}
+
+%\documentclass{beamer}
+
+\documentclass[serif,9pt]{beamer}
+\usetheme{Berlin}
+%\usepackage{german}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+
+% esquema:
+% introduccion
+%	motivacion
+%	sms
+
+\beamersetuncovermixins{\opaqueness<1>{25}}{\opaqueness<2->{15}}
+
+\begin{document}
+
+\title[SMS sobre evaluación de competencias mediante la extracción de indicadores de registros de actividad de los LMS]{Estudio sistemático de mapeo sobre evaluación de competencias mediante la extracción de indicadores procedentes de los registros de actividad de los entornos de aprendizaje virtuales}  
+\author[Antonio Balderas Alberico]{Antonio Balderas Alberico}
+\institute[]{%
+  Departamento de Ingeniería Informática\\
+  Universidad de Cádiz}
+\date[Diciembre, 2013]{Copyleft \copyright{} 2013. Reproducción permitida bajo los \\
+      términos de la licencia de documentación libre GNU.}
+\logo{\includegraphics[scale=0.05]{images/logo_uca}}
+
+
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}\frametitle{Contenido}\tableofcontents
+\end{frame} 
+
+
+%--------------------------------------------------------------------------
+% SECCION: INTRODUCCION
+%--------------------------------------------------------------------------
+\section{Introducción}  \label{introduccion}
+\subsection{Competencias}
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Competencias} 
+
+\begin{itemize}
+
+\item Las competencias de aprendizaje son habilidades que un alumno ha de ser capaz de demostrar una vez que termina su formación. \pause
+\bigskip
+
+\item Estas competencias de aprendizaje se dividen en dos grupos: \medskip
+\begin{itemize}
+ \item específicas \pause \medskip
+ \item genéricas   
+\end{itemize} \pause
+\bigskip
+% Son aquellas que deben desarrollar todas las personas, independiente de su formación, y que son indispensables para el desempeño académico y laboral. [Tuning, 2012]
+\item Es un hecho que el tiempo y la atención también deben dedicarse al desarrollo de las competencias genéricas. %PORQUÉ?? BOLONIA?? WHAT??
+\pause
+\bigskip
+
+\item Igualmente es importante reconocer la aplicación de dichas habilidades genéricas fuera del ámbito académico, ya que son cada vez más relevantes para la preparación de estudiantes para su futuro papel en la sociedad, en términos de empleabilidad y ciudadanía.
+\bigskip
+
+\end{itemize}
+
+\end{frame}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}
+\frametitle{Ámbito de estudio} 
+	\begin{itemize}
+		\item El ámbito de nuestro trabajo está relacionado con los entornos de aprendizaje virtual: \pause \medskip
+			\begin{itemize}
+				\item LMS: \emph{Learning Management System} \medskip
+				\item VLE: \emph{Virtual Learning Environment}
+			\end{itemize}\pause
+			 \bigskip
+		\item Son ampliamente utilizados hoy en día por los centros educativos a todos los niveles
+% INCLUIR IMAGEN DE MOODLE
+	\end{itemize}
+\end{frame}
+\subsection{Problemas para su evaluación}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}
+\frametitle{Problemas para su evaluación} 
+	\begin{itemize}
+		\item Estamos acostumbrados a utilizar LMS para evaluar conocimiento del alumno. \pause \medskip
+		\item ¿Cómo evaluamos las competencias genéricas? \pause \medskip
+			\begin{itemize}
+				\item Si ya en ocasiones es difícil para un profesor cumplir la planificiación \pause \medskip
+				\item Más difícil lo será si tiene que añadir tareas para evaluar competencias genéricas
+			\end{itemize}\pause
+			 \bigskip
+		\item Escalabilidad.
+	\end{itemize}
+\end{frame}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}
+\frametitle{Problemas para su evaluación} 
+
+ESCALABILIDAD
+(IMAGEN AULA LLENA DE ALUMNOS)
+% IMAGEN AULA LLENA DE ALUMNOS
+
+\end{frame}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}
+\frametitle{Problemas para su evaluación} 
+
+MOOC
+
+% IMAGEN AULA LLENA DE ALUMNOS
+
+\end{frame}
+\subsection{Propuesta de solución}
+
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}
+\frametitle{Propuesta de solución} 
+	\begin{itemize}
+		\item Ámbito de trabajo: LMS ó VLE \pause \medskip
+		\item En ellos todo queda registrado en su base de datos \pause \medskip
+			\begin{itemize}
+				\item Actividades \pause \medskip
+				\item Foro (escritura, lectura, ...)\pause \medskip
+				\item Acceso al propio campus
+			\end{itemize}\pause
+			 \bigskip
+		\item La recopilación de los rastros de interacción producidos por estos entornos puede ser una información muy valiosa para obtener indicadores del desempeño de los alumnos en competencias genéricas.
+	\end{itemize}
+\end{frame}
+
+\subsection{Estudio}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}
+\frametitle{Objetivo} 
+	\begin{itemize}
+		\item Realizar un análisis de la literatura para conocer hasta qué punto la ciencia informática se ha ocupado de la evaluación de competencias genéricas \pause \medskip
+			\begin{itemize}
+				\item Especialmente en aquellos trabajos que realicen dicha evaluación de manera automatizada
+			\end{itemize}
+			 \bigskip
+% IMAGEN DUDAS
+% PREGUNTAS: ¿Cuántos trabajos han tratado esta problemática anteriormente? ¿Qué competencias pueden ser evaluadas de manera automática?
+	\end{itemize}
+\end{frame}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}
+\frametitle{Sistematic Mapping Study} 
+	\begin{itemize}
+		\item Un SMS es una amplia revisión de los estudios primarios en un área específica. \pause \medskip
+		\item Su objetivo es identificar alguna evidencia sobre el tema. \pause \medskip
+		\item Este estudio se basa en las directrices publicadas en la metodología propuesta por Kitchenham. \pause \medskip
+		\item Describe cómo se deben planificar, ejecutar y presentar los resultados de una revisión de la literatura en ingeniería del software.
+	\end{itemize}
+\end{frame}
+
+%--------------------------------------------------------------------------
+% SECCION: ESTUDIO SISTEMATICO DE MAPEO
+%--------------------------------------------------------------------------
+\section{Estudio sistemático de mapeo}  \label{sms}
+\subsection{Fases}
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Fases} 
+	\begin{itemize}
+		\item Definir preguntas de investigación \pause \medskip
+		\item Protocolo de revisión: \pause \medskip
+			\begin{itemize}
+				\item Seleccionar motores de búsqueda \pause \medskip
+				\item Términos de búsqueda \pause \medskip
+				\item Criterios de selección/inclusión \pause \medskip
+				\item Clasificación \pause \medskip
+				\item Análisis de los datos
+			\end{itemize}
+			\bigskip
+	\end{itemize}
+\end{frame}
+
+\subsection{Preguntas de investigación}
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Preguntas de investigación} 
+	\begin{enumerate}
+		\item ¿Cuáles son las competencias que se han evaluado de forma automática o asistida por ordenador a partir del uso de los entornos virtuales? \pause \medskip
+		\item ¿Qué herramientas o metodologías se utilizan para evaluar competencias mediante el uso de los entornos virtuales? \pause \medskip
+		\item ¿Con qué técnicas se pueden obtener evidencias objetivas del desarrollo de las siguientes competencias en un entorno virtual? \pause \medskip
+		\item ¿Son utilizados los registros de actividad de los entornos virtuales para la evaluación? 
+	\end{enumerate}
+\end{frame}
+
+\subsection{Protocolo de revisión}
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Motores de búsqueda} 
+	\begin{itemize}
+		\item Wiley Online Library \medskip
+		\item World Scientific Net \medskip
+		\item Springer \medskip
+		\item ACM Digital Library \medskip
+		\item IEEE Digital Library (Xplore) \medskip		
+		\item Scopus
+	\end{itemize}
+\end{frame}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Términos de búsqueda} 
+	\begin{itemize}
+		\item Términos obligatorios \pause \medskip
+			\begin{itemize}
+				\item \emph{assessment} \pause \medskip
+				\item \emph{generic skills} \pause \medskip
+				\item \emph{generic competences} 
+			\end{itemize}
+			 \medskip
+	\end{itemize}
+
+
+\end{frame}
+
+%Existen muchos términos que pueden utilizarse para referirse a la evaluación de competencias genéricas de manera automatizada o asistida. Por la naturaleza de nuestro trabajo, debemos contemplar siempre en las palabras de búsqueda los términos \emph{assessment} y \emph{generic skills} o \emph{generic competences}. Realizar la búsqueda por el término \emph{Assessment of generic skills} o \emph{assessing generic skills} nos planteaba la primera problemática, y es que el número de artículos devueltos era muy reducido. Por ejemplo, en la \emph{Wiley Online Library} la búsqueda del término exacto \emph{generic skills assessment} devolvió un único resultado. Sin embargo, debilitar la búsqueda con términos como \emph{generic competences} o \emph{generic skills} junto con la palabra \emph{assessment} daba un número de resultados muy elevado. En la misma biblioteca, buscar por los términos \emph{``generic skills`` and student and assessment} nos devolvía 609 resultados. En primera instancia se probó añadiendo términos como  \emph{E-Learning}, \emph{computer-assisted} o \emph{mobile learning}. Sin embargo, incluir términos de este tipo reducían también drásticamente el número de resultados obtenidos en la búsqueda, no llegando a obtenerse bibliografía más significativa que si no se incluyen. Por tanto, a tenor de las pruebas se decide eliminar de la búsqueda ese tipo de términos. Por otro lado, sí se incluyen acrónimos de diferentes entornos virtuales relacionados con las TEL, como son: \emph{TEL}, \emph{LMS}, \emph{ICT} (Information and Communications Technology), \emph{CBI} (Content-Based Instruction). Y tras varias pruebas, se descartan también de la búsqueda términos como `\emph{ICE} (Integrated Collaboration Environment) y \emph{CSCL} (Computer Supported Collaborative Learning), debido a que son términos que en conjunción con los términos principales de nuestra búsqueda no suelen aparecer y los resultados de estas búsquedas eran nulos. Un ejemplo de esto se refleja en una de las consultas realizadas en \emph{Scopus}, dónde los términos \emph{((``student assessment`` OR ``assessment of students``) AND (``generic skills`` OR ``generic competences``)) AND CSCL} no devolvían ningún resultado. La combinación de los términos de búsqueda empleados en la investigación, así como a los motores de búsqueda que fueron aplicados en cada una pueden comprobarse en la tabla \ref{tab:ResumenBusqueda}.
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Términos de búsqueda} 
+	\begin{itemize}
+		\item Problema:
+	\end{itemize}\pause \medskip
+	\begin{table}
+	\centering
+		\begin{tabular}{l|r}
+		Terminos & Resultados \\\hline
+		\emph{``generic skills assessment``} & 1 \\
+		\emph{``generic skills`` and student and assessment} & 609
+		\end{tabular}
+	\caption{\label{tab:ResultadosBusquedaMalos} Resultados de búsqueda.}
+	\end{table}\pause \medskip
+	 
+	\begin{itemize}
+		\item Solución: Añadir acrónimos relacionados: TEL, LMS, ICT, CBI.
+	\end{itemize}
+\end{frame}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Términos de búsqueda} 
+	\centering
+	\begin{tabular}{l|r}
+		Motor & Resultados \\\hline
+		Wiley Online Library & 140 \\
+    		World Scientific Net & 20\\
+    		Springer & 142\\
+		ACM Digital Library & 72\\
+		IEEE Digital Library (Xplore) & 48\\
+		Scopus & 47\\\hline
+		TOTAL & 468
+	\end{tabular}
+\end{frame}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Criterios de exclusión} 
+	\begin{itemize}
+		\item Off Topic: trabajo no relacionado directamente con nuestra investigación.\pause \medskip
+		\item Unsupported Language: trabajo escrito en un lenguaje diferente al inglés o español.\pause \medskip
+		\item Duplicated: trabajos repetidos o cuya contribución principal está recogida en otros trabajos ya incluidos. \pause \medskip
+		\item Unread: trabajo que no ha podido ser leído.
+	\end{itemize}
+\end{frame}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Criterios de exclusión} 
+	\centering
+	\begin{tabular}{l|r|r}
+		Criterio & Trabajos & Porcentaje \\\hline
+		Included & 32 & 6,84\% \\
+		Off Topic & 407 & 86,97\% \\
+		Unsupported Language & 1 & 0,21\% \\
+		Duplicated & 20 & 4,27\% \\
+		Unread & 8 & 1,71\% \\\hline
+		TOTAL & 468 & 100,00\%
+	\end{tabular}
+\end{frame}
+
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Extracción de información} 
+DIAPOSITIVAS CON TRABAJOS SELECCIONADOS (FIGURAS Y TABLAS)
+\end{frame}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Extracción de información} 
+	\begin{itemize}
+		\item Clasificación:\pause \medskip
+			\begin{itemize}				
+				\item Tipo de investigación: propuesta de solución, validación de investigación, evaluación de la investigación, artículos de experiencia, artículos de opinión y trabajos filosóficos\pause \medskip
+				\item Tipo de contribución: modelo, proceso, herramienta, framework, técnica \pause \medskip
+				\item Ámbito de aplicación : CLO y rúbricas, Evaluación entre iguales y autoevaluación, aprendizaje basado en juegos y E-Evaluación y revisiones.
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Extracción de información} 
+IMAGEN BURBUJA
+%IMAGEN BURBUJA
+\end{frame}
+
+
+%--------------------------------------------------------------------------
+% SECCION: RESULTADOS
+%--------------------------------------------------------------------------
+\section{Resultados} \label{resultados}
+\subsection{Respuestas}
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Respuestas} 
+	\begin{enumerate}
+		\item  ¿Cuáles son las competencias que se han evaluado de forma automática o asistida por ordenador a partir del uso de los entornos virtuales? \pause \medskip
+			\begin{itemize}
+				\item Capacidad para comunicarse en un segundo idioma
+				\item Capacidad para comunicarse de forma oral y por medio de la palabra escrita en la lengua materna
+				\item Capacidad para generar nuevas ideas (creatividad)
+				\item Capacidad para trabajar en equipo
+				\item Capacidad para tomar decisiones razonadas
+				\item Capacidad para planificar y administrar el tiempo 
+				\item Capacidad para adaptarse y actuar en nuevas situaciones
+				\item Capacidad para identificar, plantear y resolver problemas
+				\item La apreciación y el respeto por la diversidad y multiculturalidad
+				\item Capacidad de aplicar los conocimientos en situaciones prácticas
+				\item Habilidad para trabajar de forma autónoma
+				\item Capacidad para el pensamiento abstracto, análisis y síntesis 
+				\item Capacidad para ser críticos y autocríticos
+				\item Espíritu de empresa, la capacidad de tomar la iniciativa
+			\end{itemize}
+	\end{enumerate}
+\end{frame}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Respuestas} 
+	\begin{enumerate}
+		\setcounter{enumi}{1}
+		\item  ¿Qué herramientas o metodologías se utilizan para evaluar competencias mediante el uso de los entornos virtuales? \pause \medskip
+			\begin{itemize}
+				\item Redes sociales: Facebook
+				\item Grabación en vídeo
+				\item GBL
+				\item Herramientas 2.0 que favorecen trabajo colaborativo: Wiki, Blog, Portfolio
+			\end{itemize}
+			 \medskip \pause
+		\item ¿Con qué técnicas se pueden obtener evidencias objetivas del desarrollo de las siguientes competencias en un entorno virtual? \pause \medskip		
+			\begin{itemize}
+				\item Autoevaluación y/o evaluación entre iguales
+				\item Evaluación automática
+				\item Rúbricas
+			\end{itemize}
+	\end{enumerate}
+\end{frame}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Respuestas} 
+	\begin{enumerate}
+		\setcounter{enumi}{3}
+		\item ¿Son utilizados los registros de actividad de los entornos virtuales para la evaluación?  \pause \medskip
+			\begin{itemize}
+				\item No se han encontrado trabajos con una propuesta basada en la extracción de información de los registros para evaluar competencias \pause \medskip
+				\item Se han encontrado evidencias en la literatura que apoyan esta teoría: \pause \medskip
+				\begin{itemize}
+					\item Se podrían utilizar registros de actividad de herramientas de trabajo colaborativo para evaluar competencias genéricas \pause \medskip
+					\item La información obtenida requeriría un filtrado
+				\end{itemize}
+			\end{itemize}
+	\end{enumerate}
+\end{frame}
+
+%--------------------------------------------------------------------------
+% SECCION: CONCLUSIONES
+%--------------------------------------------------------------------------
+\section{Conclusiones y trabajo futuro} \label{conclusiones}
+\subsection{Conclusiones}
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Conclusiones} 
+	\begin{itemize}
+		\item Se han encontrado pocos trabajos que evalúen competencias desde el punto de vista de la tecnología \pause \medskip
+		\item Bajo grado de madurez de la ciencia informática en este ámbito \pause \medskip
+		\item Nicho de investigación
+	\end{itemize}
+\end{frame}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Objetivos generales}  \pause \medskip
+	\begin{itemize}
+	\item Objetivo funcional: ser capaz de recoger información de una diversidad de sistemas: LMS, wikis y CMS. \pause \medskip
+	\item Objetivo no funcional: ser capaz de evaluar el desempeño de los alumnos en el sistema, a pesar de que el número de alumnos sea muy elevado.
+	\end{itemize}
+\end{frame}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\subsection{Trabajo en curso y futuro}
+\begin{frame}\frametitle{EvalCourse} 
+	\begin{itemize}
+		\item DSL que extrae indicadores de competencias genéricas
+		\item Prototipo presentado en varios congresos:
+			\begin{itemize}
+				\item Póster en EC-TEL 2013, Paphos (Chipre)
+				\item Presentación oral en ISELEAR - TEEM 2013, Salamanca
+			\end{itemize}
+		\item Pendientes de cesión de datos por parte de la Unidad de Innovación
+	\end{itemize}
+\end{frame}
+
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle{Actuación Avalada} 
+	\begin{itemize}
+% Durante el presente curso 2013/14 se está desarrollando un proyecto financiado por la Convocatoria de Actuaciones Avaladas para la Mejora Docente, Formación del Profesorado y Difusión de Resultados con fondos de la Consejería de Economía, Innovación, Ciencia y Empleo de la Junta de Andalucía, con el título \emph{Extracción de indicadores objetivos para evaluación del desarrollo de competencias genéricas a partir de registros de actividad del Campus Virtual}. La Unidad de Innovación Docente de la Universidad de Cádiz concedió dicha actuación con código \emph{AAA\_14\_009} y actualmente se está desarrollando. En ella participan 8 profesores de 6 asignaturas del Grado en Ingeniería Informática.
+		\item proyecto financiado por la Convocatoria de Actuaciones Avaladas para la Mejora Docente, Formación del Profesorado y Difusión de Resultados con fondos de la Consejería de Economía, Innovación, Ciencia y Empleo de la Junta de Andalucía
+		\item Extracción de indicadores objetivos para evaluación del desarrollo de competencias genéricas a partir de registros de actividad del Campus Virtual
+		\item Datos:
+			\begin{itemize}
+				\item 8 profesores
+				\item 6 asignaturas de Grado en Ingeniería Informática
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+%-------------------------------------
+% SLIDE
+%-------------------------------------
+\begin{frame}\frametitle<presentation>{Referencias}
+
+
+\begin{thebibliography}{10}
+
+\bibitem[Devlin, 2002]{Devlin}
+A.J.~Chorin, J.E.~Marsden.
+\newblock {\em A Mathematical Introduction to Fluid Mechanics}
+\newblock Springer-Verlag, 1980.
+
+\bibitem[Devlin, 2002]{Devlin}
+K.~Devlin.
+\newblock {\em The Millenium Problems. The Seven Greatest Unsolved Mathematical Puzzles of Our Time}
+\newblock Basic Books, 2002.
+
+\bibitem{Fefferman} 
+C.~Fefferman.
+\newblock {\em Clay Mathematics Institute, Millenium Problems. Official problem description}.
+\newblock 
+\href{http://www.claymath.org/millennium/Navier-Stokes\_Equations/}{http://www.claymath.org/millennium/Navier-Stokes\_Equation}
+\bibitem[Wikipedia contributors, 200]{Wikipedia}
+Wikipedia contributors
+\newblock {\em Navier-Stokes equations}
+\newblock Wikipedia, The Free Encyclopedia., 2008.
+\newblock 
+\href{http://en.wikipedia.org/wiki/Navier-Stokes\_equations}{http://en.wikipedia.org/wiki/Navier-Stokes\_equations}
+
+\end{thebibliography}
+\end{frame}
+
+
+\end{document}
